@@ -1,0 +1,50 @@
+{
+  "name": "backend-psi12",
+  "version": "1.0.0",
+  "description": "Servidor para a GameStore",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=tourofheroes:* & npm run devstart",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Tiago Pinto",
+      "email": "fc55172@alunos.fc.ul.pt"
+    },
+    {
+      "name": "Ricardo Soares",
+      "email": "fc54446@alunos.fc.ul.pt"
+    },
+    {
+      "name": "Miguel Reis",
+      "email": "fc54409@alunos.fc.ul.pt"
+    },
+    {
+      "name": "Alexandre Pinto",
+      "email": "fc55958@alunos.fc.ul.pt"
+    },
+    {
+      "name": "Tomás Valério",
+      "email": "fc53492@alunos.fc.ul.pt"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jade": "^0.29.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.0.1",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
