@@ -4,22 +4,20 @@
 
 * Loja de jogos digitais
 
-## Tecnologias Usadas
+## Tecnologias Usadas :rocket:
 #### MEAN Stack
 * **Frontend**
-    * Angular
+    * [![My Skills](https://skillicons.dev/icons?i=angular)](https://skillicons.dev) Angular
 * **Backend**
-    * Node + Express
+    * [![My Skills](https://skillicons.dev/icons?i=nodejs,express)](https://skillicons.dev) Node + Express
 * **Base de Dados**
-    * MongoDB
-
-:rocket:
+    * [![My Skills](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev) MongoDB
 
 
  ## Comandos para correr os servidores localmente:
  * **Frontend**
     * `ng serve --port <porta> --host 0.0.0.0 --disable-host-check true`
-    Substituir onde diz <porta> pela porta desejada. Por padrão é usada 4200.
+    Substituir onde diz `<porta>` pela porta desejada. Por padrão é usada 4200.
 * **Backend**
     * `npm run devstart`
 
