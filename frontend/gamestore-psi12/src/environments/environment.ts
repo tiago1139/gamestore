@@ -1,3 +1,4 @@
 export const environment = {
-    api:'http://appserver.alunos.di.fc.ul.pt:3012'
+    production: false,
+    api: 'http://localhost:3012'
 };

@@ -28,8 +28,7 @@ app.use(cors());
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://psi012:psi012@localhost:27017/psi012?retryWrites=true&authSource=psi012';
-//var mongoDB = 'mongodb+srv://psi012:Pk7J1FAOmE5USXZy@cluster0.i9itr.mongodb.net/?retryWrites=true&w=majority';
+var mongoDB = 'mongodb+srv://psi012:Pk7J1FAOmE5USXZy@cluster0.i9itr.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
